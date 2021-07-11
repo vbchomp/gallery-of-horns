@@ -10,4 +10,4 @@ Heather Bisgaard, Software Engineer
 
 ## References
 
-* Lab 01 - [Iterating & rending with Loops in React Components](https://thinkster.io/tutorials/iterating-and-rendering-loops-in-react) to try the the stretch goal
+* Lab 01 - [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html) to try the the stretch goal
