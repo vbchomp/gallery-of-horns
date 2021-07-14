@@ -3,6 +3,8 @@ import Footer from './Footer.js';
 import Header from './Header.js';
 import Main from './Main.js';
 import './App.css';
+import './Main.css';
+import './HornedBeast.css';
 import './Footer.css';
 import './Header.css';
 

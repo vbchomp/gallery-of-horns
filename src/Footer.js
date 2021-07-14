@@ -2,8 +2,10 @@ import React from 'react';
 
 class Footer extends React.Component {
   render() {
-    return(
-      <p>Heather Bisgaard</p>
+    return (
+      <footer>
+        <p>Heather Bisgaard</p>
+      </footer>
     )
   }
 }
