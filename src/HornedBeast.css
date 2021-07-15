@@ -1,4 +1,4 @@
-/* * {
+* {
   text-align: center;
   margin: auto;
 }
@@ -7,13 +7,13 @@
   font-family: 'Courier New', Courier, monospace;
   border: 3px solid cadetblue;
   border-radius: 5px;
-  /* max-width: max-content; */
-  /* margin-top: 20px;
+  max-width: max-content;
+  margin-top: 20px;
   padding: 20px;
-} */
+}
 
-/* .horns img {
-  width: 350px;
-} */
+.horns img {
+  width: 375px;
+}
 
  
