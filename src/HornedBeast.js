@@ -30,17 +30,17 @@ class HornedBeast extends React.Component {
     return (
       <Card>
       <section className="horns">
-        <h2>{this.props.title}</h2>
+        <h2>{this.props.beast.title}</h2>
         <Card.Img
           variant="top"
-          src={this.props.imageUrl}
-          alt={this.props.keyword}
-          title={this.props.title}
-          onClick={this.props.handleShowBeastModal}
+          src={this.props.beast.image_url}
+          alt={this.props.beast.keyword}
+          title={this.props.beast.title}
+          onClick={() => this.props.handleShowBeastModal(this.props.beast)}
         />
-        <p>{this.props.horns} Horns</p>
+        <p>{this.props.beast.horns} Horns</p>
         <p>{this.state.showFavorite ? '💚' : ''}</p>
-        <p onClick={this.favoriteBeast}>{this.props.description}</p>
+        <p onClick={this.favoriteBeast}>{this.props.beast.description}</p>
         <p>{this.state.favesForBeast} Favorites for this Beast</p>
         <Button onClick={this.addFave}>Add One More Vote!</Button>
       </section>

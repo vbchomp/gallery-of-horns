@@ -12,9 +12,10 @@ class Main extends React.Component {
           handleFavorites={this.props.handleFavorites}
           showHandleFavorites={this.props.showHandleFavorites}
           key={index}
-          title={beast.title}
-          imageUrl={beast.image_url}
-          description={beast.description}
+          beast={beast}
+          // title={beast.title}
+          // imageUrl={beast.image_url}
+          // description={beast.description}
           keyword={beast.keyword}
           horns={beast.horns}
         />
