@@ -1,14 +1,16 @@
 import React from 'react';
 import HornedBeast from './HornedBeast.js';
-import data from './data.json';
 import CardColumns from 'react-bootstrap/CardColumns';
 
 class Main extends React.Component {
-  render() {
-    let beastToRender = [];
-    data.forEach((beast, index) => {
-      beastToRender.push(
+   render() {
+    // wanted to try a map function
+    let beastToRender = this.props.data.map((beast, index) => {
+      return (
         <HornedBeast
+          handleShowBeastModal={this.props.handleShowBeastModal}
+          handleFavorites={this.props.handleFavorites}
+          showHandleFavorites={this.props.showHandleFavorites}
           key={index}
           title={beast.title}
           imageUrl={beast.image_url}
@@ -18,10 +20,11 @@ class Main extends React.Component {
         />
       )
     })
-
-    // wanted to try a map function
-    // let beastToRender = data.map((beast, index) => {
-    //   return (
+        
+    // forEach function
+    // let beastToRender = [];
+    // data.forEach((beast, index) => {
+    //   beastToRender.push(
     //     <HornedBeast
     //       key={index}
     //       title={beast.title}
