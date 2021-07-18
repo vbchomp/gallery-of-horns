@@ -15,6 +15,7 @@ class App extends React.Component {
     this.state = {
       showBeastModal: false,
       favorites: 0,
+      selectedBeast: {},
     }
   }
 
@@ -24,9 +25,10 @@ class App extends React.Component {
     });
   }
 
-  handleShowBeastModal = () => {
+  handleShowBeastModal = (selectedBeast) => {
     this.setState({
       showBeastModal: true,
+      selectedBeast: selectedBeast
     });
   }
 
@@ -47,6 +49,7 @@ class App extends React.Component {
         />
         <SelectedBeast showBeastModal={this.state.showBeastModal}
           handleCloseBeastModal={this.handleCloseBeastModal}
+          beast={this.state.selectedBeast}
         />
         <Footer>
           <h3>Wallet Balance: ${this.state.wallet}</h3>
