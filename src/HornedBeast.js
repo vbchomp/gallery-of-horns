@@ -10,6 +10,7 @@ class HornedBeast extends React.Component {
     this.state = {
       favesForBeast: 0,
       favorites: this.props.showHandleFavorites,
+      showFavorite: false,
     }
   }
 
@@ -26,7 +27,7 @@ class HornedBeast extends React.Component {
     this.props.handleFavorites();
   }
 
-  render() {
+   render() {
     return (
       <Card>
       <section className="horns">

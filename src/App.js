@@ -14,7 +14,8 @@ class App extends React.Component {
     super(props);
     this.state = {
       showBeastModal: false,
-      favorites: 0,
+      // favorites: 0,
+      // empty object that will be filled when HornedBeast sends state back up 
       selectedBeast: {},
     }
   }
@@ -52,7 +53,7 @@ class App extends React.Component {
           beast={this.state.selectedBeast}
         />
         <Footer>
-          <h3>Wallet Balance: ${this.state.wallet}</h3>
+          {/* <h3>Wallet Balance: ${this.state.wallet}</h3> */}
         </Footer>
       </>
     )
