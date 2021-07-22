@@ -1,5 +1,6 @@
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
+
 import './SelectedBeast.css'
 
 class SelectedBeast extends React.Component {

@@ -11,6 +11,8 @@ Heather Bisgaard, Software Engineer
 Charlie Fadness, Software Developer
 Phil Murphy, Site Reliability Engineer
 Joe Pennock, TA
+Ryan Gallaway, Instructor
+Michael Eclavea, TA
 
 ## References
 
@@ -73,3 +75,5 @@ Actual time needed to complete: 3 hrs 15 mins
 * Lab 02 - I figured out my forEach and got the map function to work. I wish I could have gotten the bootstrap working. I need to get this loaded in Netlify for submission.
 
 * Lab 03 - I had the modals and functions to show and hide the modal done very quickly. It just took forever trying to get them in the right spots on the pages to get the modal to render. Then I was really confused about trying to have the state updated from Main, since I do not have any of my functions on Main. So I was trying to figure out ways to do this. I had help from Joe (TA) to help me iron out my issues and then I tried the stretch goal, but think I was googling the wrong flavor of bootstrap. EVen Charlie sounded a little intimidated. I will try a stretch goal some day!!
+
+* Lab 04 - I have been lost since I started my annual training and have had no time to do studying or reading. Michael helped me from after the point of my help ticket that I originally posted where I could not get my form option dropdowns to dropdown. I figured that out because it took so long to get someone to come help. But I was lost with how to actually get any functions to iterate or filter through the array to render the beasts. He lead me, and asked questions, so I kind of knew, but only after he suggested options. One thing we did notice though, is that the site renders the images one refresh behind the selection of the filter. So it will look like it does not know how to go from 2 horns to 1 horn, you just need to make another selection and the last selection will render.
